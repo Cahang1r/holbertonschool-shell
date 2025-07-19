@@ -1,2 +1,2 @@
 #!/bin/bash
-for d in *$'\n'do$'\n'test -d "$d"$'\n'if [ $? -eq 0 ]$'\n'then$'\n'chmod a+x "$d"$'\n'fi$'\n'done
+find . -maxdepth 1 -type d ! -name . -exec chmod a+x {} +
