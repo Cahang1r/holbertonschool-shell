@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod u+x 6-list_all_files.sh
+ls -la
