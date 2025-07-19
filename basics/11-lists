@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -la; cd .. && ls -la; ls -la /boot)
+bash -c $"ls -la\nls -la .. \nls -la /boot"
