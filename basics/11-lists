@@ -1,2 +1,2 @@
 #!/bin/bash
-bash -c $"ls -la\nls -la .. \nls -la /boot"
+ls -la /boot
