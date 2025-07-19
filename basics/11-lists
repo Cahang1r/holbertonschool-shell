@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -la; ls -la ..; ls -la /boot
+chmod u+x 6-list_all_files.sh
