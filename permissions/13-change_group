@@ -1,2 +1,2 @@
 #!/bin/bash
-setfacl -m g:school:rw hello
+chmod u+x,g+x,o+x directory
