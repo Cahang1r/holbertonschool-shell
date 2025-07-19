@@ -1,2 +1,3 @@
 #!/bin/bash
-chmod u=rwx hello
+chmod +x 8-James_Bond
+
