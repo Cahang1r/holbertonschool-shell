@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincent:staff ./
+find . -mindepth 1 -exec chown vincent:staff {} +
